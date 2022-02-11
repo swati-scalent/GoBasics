@@ -6,7 +6,7 @@ import "time"
 func main(){
 	for i:= 1;i<11;i++{
 	go f()
-	time.Sleep(2)
+	time.Sleep(1)
 	}
 	fmt.Scanln()
 }
